@@ -1,13 +1,2 @@
 TODO:
-  Getting error in browser console.
-
-    Loading failed for the <script> with source “https://raw.github.com/ondras/rot.js/master/rot.min.js”.          index.html:7
-
-    SyntaxError: missing } in compound statement                                                                   game.js:26
-                 The character encoding of the HTML document was not declared. 
-                 The document will render with garbled text in some browser configurations
-                 if the document contains characters from outside the US-ASCII range. 
-                 The character encoding of the page must be declared in the document or in the transfer protocol.  index.html
-    
-  Don't really know why. It is coming from the imported library. Maybe we should include it natively in our source
-  for easy manipulation of it.
+  Create a screen variable for displaying the game
